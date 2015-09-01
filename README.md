@@ -7,7 +7,7 @@ We will be using libvips (https://github.com/jcupitt/libvips) for processing the
 ### Install vips dependencies
 sudo apt-get install libvips-tools
 sudo apt-get install libvips --no-install-recommends
-# patch to fix broken libopenjpeg2 library
+#### patch to fix broken libopenjpeg2 library
 sudo dpkg -i libopenjpeg2_1.3+dfsg-4.6ubuntu2_amd64.deb
 
 ### Example usage
